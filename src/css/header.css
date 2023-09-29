@@ -117,6 +117,10 @@ align-items: center;
        border-radius: 15px;
 border: 1px solid rgba(252, 249, 249, 0.10);
     }
+    .contacts-social-list-header{
+        display: flex;
+
+    }
     .page-navigation{
         display: flex;
         
@@ -128,6 +132,9 @@ border: 1px solid rgba(252, 249, 249, 0.10);
     }
     .logotype {
         margin-right: 60px;
+    }
+    .social-list-header{
+        margin-left: 20px;
     }
 }
 
