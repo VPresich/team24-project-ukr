@@ -16,3 +16,18 @@
 @import url('./footer.css');
 
 
+:root {
+    --secondary-color: #1c2225;
+    --primary-color: #fcf9f9;
+    --accent-color: #ecd979;
+
+    /* font-family: 'Manrope', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; */
+}
