@@ -3,12 +3,69 @@
     padding-right: 20px;
 }
 
+.menu-header  {
+    display: none;
+}
+
+.contacts {
+    display: none;
+}
+
+.page-header {
+    padding-top: 20px;
+    
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+    
+}
+.social-list-header {
+    display: flex;
+    gap: 12px;
+    
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background: rgba(252, 249, 249, 0.10);
+  }
+  .social-list-icon{
+    fill: var(--primary-color);
+  }
+  .social-list-link:hover,
+  .social-list-link:focus {
+    border-color: var(--accent-color);
+  }
+.open-mobile-menu-btn {
+    line-height: 0;
+    margin-left: 12px;
+    padding: 0;
+    border: 0;
+    width: 36px;
+    height: 24px;
+    background-color: var(--secondary-color)
+}
+
 @media screen and (min-width: 375px) {
     .container {
         width: 375px;
         margin-left: auto;
         margin-right: auto;
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -17,14 +74,63 @@
         padding-left: 32px;
         padding-right: 32px;
     }
+    .open-mobile-menu-btn {
+    margin-left: 20px;
+    }
 }
+
 @media screen and (min-width: 1280px) {
     .container {
         width: 1280px;
         padding-left: 100px;
         padding-right: 100px;
     }
+    .open-mobile-menu-btn{
+        display: none;
+    }
+    .menu-header  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 25px;
+        margin-right: 85px;
+    }
+    .contacts {
+        display: flex;
+        justify-content: center;
+align-items: center;
+    }
+    .contact-link{
+        color:var(--primary-color);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.43em; /* 142.857% */
+text-transform: uppercase;
+        display: flex;
+justify-content: center;
+align-items: center;
+        width: 195px;
+        height: 50px;
+       padding: 14px 28px;
+       border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+    }
+    .page-navigation{
+        display: flex;
+        
+    }
+    .header{
+        display: flex;
+       
+        
+    }
+    .logotype {
+        margin-right: 60px;
+    }
 }
+
 @media screen and (min-width: 1440px) {
     .container {
         width: 1140px;
