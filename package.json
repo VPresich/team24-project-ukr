@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=https://github.com/VPresich/team24-project-ukr",
+    "build": "vite build --base /team24-project-ukr/",
     "preview": "vite preview"
   },
   "devDependencies": {
