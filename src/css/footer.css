@@ -1,4 +1,8 @@
+/*.accent-color{
+    color: var(--accent-color);
+}*/
 .footer-page {
+    background-color: #ECD979;
     background-repeat: no-repeat;  
 }
 @media screen and ( max-width: 767px) {
@@ -67,3 +71,5 @@ screen and (min-device-pixel-rotation: 2) and ( min-width: 1440px)
         background-image: url(../img/img_footer/retina/elements-desktop-1440@2x.png) ;
     }
 }
+
+
