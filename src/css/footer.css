@@ -1,3 +1,114 @@
-.accent-color{
-    color: var(--accent-color);
-}
+.footer-page {
+    padding-top: 40px;
+    padding-bottom: 280px;
+  }
+  
+  .footer-navigation {
+    display: block;
+    margin-bottom: 40px;
+  }
+  
+  .footer-menu {
+    display: flex;
+    column-gap: 40px;
+  }
+  
+  .about-menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .customers-menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .footer-menu-item {
+    display: block;
+    font-family: inherit;
+  }
+  
+  .footer-menu-item-link {
+    color: var(--primary-color);
+    font-size: 14px;
+    line-height: 1.28;
+    text-transform: uppercase;
+  }
+  
+  .footer-title {
+    color: var(--primary-color);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+  }
+  
+  .footer-title-wrapper {
+    width: 335px;
+  }
+  
+  .footer-page {
+    background-image: url('../../../img/footer/elements-mobile@1x.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: right bottom;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer-page {
+      padding-bottom: 40px;
+    }
+  
+    .footer-navigation {
+      display: block;
+      margin-bottom: 80px;
+    }
+  
+    .footer-title {
+      font-size: 54px;
+      line-height: 1.19;
+    }
+  
+    .footer-title-wrapper {
+      width: 521px;
+    }
+  
+    .footer-page {
+      background-image: url('../../../img/footer/elements-tablet@1x.png');
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .footer-navigation {
+      margin-bottom: 117px;
+    }
+  
+    .footer-title {
+      font-size: 64px;
+      line-height: 1.16;
+    }
+  
+    .footer-title-wrapper {
+      width: 754px;
+    }
+  
+    .footer-page {
+      background-image: url('../../../img/footer/elements-desktop-1280@1x.png');
+      background-position: right top;
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .footer-title {
+      font-size: 64px;
+      line-height: 1.16;
+    }
+  
+    .footer-page {
+      background-image: url('../../../img/footer/elements-desktop-1440@1x.png');
+      background-position: right bottom;
+    }
+  }
+  
