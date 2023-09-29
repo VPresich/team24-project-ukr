@@ -50,7 +50,7 @@
   }
   
   .footer-page {
-    background-image: url('../../../img/footer/elements-mobile@1x.png');
+    background-image: url('../img/footer/elements-mobile@1x.png');
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: right bottom;
@@ -76,7 +76,7 @@
     }
   
     .footer-page {
-      background-image: url('../../../img/footer/elements-tablet@1x.png');
+      background-image: url('../img/footer/elements-tablet@1x.png');
     }
   }
   
@@ -95,7 +95,7 @@
     }
   
     .footer-page {
-      background-image: url('../../../img/footer/elements-desktop-1280@1x.png');
+      background-image: url('../img/footer/elements-desktop-1280@1x.png');
       background-position: right top;
     }
   }
@@ -107,7 +107,7 @@
     }
   
     .footer-page {
-      background-image: url('../../../img/footer/elements-desktop-1440@1x.png');
+      background-image: url('../img/footer/elements-desktop-1440@1x.png');
       background-position: right bottom;
     }
   }
