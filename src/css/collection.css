@@ -1,3 +1,32 @@
 .accent-color{
     color: var(--accent-color);
 }
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.collection-list-img {
+    margin-bottom: 18px;
+}
+
+.collection-list-name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.collection-list-price {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
