@@ -1,8 +1,8 @@
 .accent-color {
   color: var(--accent-color);
 }
-.hero {
-  margin-top: 60px;
+.hero > .container {
+  padding-top: 60px;
 }
 .main-title {
   font-size: 44px;
@@ -39,7 +39,6 @@
   border-color: var(--accent-color);
 }
 .hero-title-block {
-  margin-bottom: 40px;
   width: 100%;
 }
 .order-link-icon-wrapper {
@@ -54,18 +53,109 @@
 .hero-handmade-block {
   display: none;
 }
+.hero-content-block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.hero-girl-img {
+  border-radius: 4px;
+}
 @media screen and (min-width: 375px) {
-  .main-title {
+  .hero-title-block {
     width: 335px;
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
+  .hero > .container {
+    padding-top: 106px;
+    position: relative;
+  }
+  .hero-title-block {
+    width: 549px;
+  }
+  .main-title {
+    font-size: 54px;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+  }
+  .order-link {
+    margin-top: 40px;
+    margin-left: 141px;
+
+    width: 168px;
+    padding: 14px 39px;
+    font-size: 16px;
+  }
+
+  .hero-handmade-block {
+    display: block;
+  }
+  .hero-handmade-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+  .order-star-icon-wrapper {
+    width: 115px;
+    fill: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 80px;
+    right: 32px;
+  }
+  .hero-handmade-example {
+    position: absolute;
+    bottom: 0px;
+    right: 23px;
+  }
+  .hero-girl-img {
+    width: 413px;
+  }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) {
 }
 @media screen and (min-width: 1280px) {
+  .hero > .container {
+    padding-top: 100px;
+    position: relative;
+  }
+
+  .hero-content-block {
+    width: auto;
+    flex-direction: row;
+  }
+  .hero-title-block {
+    margin-top: 94px;
+    width: 518px;
+    order: 2;
+  }
+  .hero-girl-img {
+    order: 1;
+  }
+  .order-star-icon-wrapper {
+    position: absolute;
+    top: 114px;
+    right: 100px;
+  }
+  .hero-handmade-example {
+    position: absolute;
+    bottom: 0px;
+    right: 97px;
+  }
+
+  .hero-girl-img {
+    width: 392px;
+  }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px) {
 }
