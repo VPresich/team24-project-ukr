@@ -49,6 +49,7 @@
 }
 .order-link-icon {
   fill: var(--accent-color);
+  transform: rotate(-30deg);
 }
 .hero-handmade-block {
   display: none;
