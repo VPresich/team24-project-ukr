@@ -89,7 +89,7 @@
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 375px),
-screen and (min-resolution: 2ddpx) and (min-width: 375px),
+screen and (min-resolution: 2dppx) and (min-width: 375px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 375px){
   .order-green-girl{
     background-image: url(../img/order/photo-bgr/photo-mobile@2x.png);
@@ -132,7 +132,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px){
     margin-bottom: 100px;
   }
   .order-img-container {
-    display: relative;
+    position: relative;
     max-height: 600px;
     padding: 0 16px;
   }
@@ -152,7 +152,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px){
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2ddpx) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
   .order-green-girl{
     background-image: url(../img/order/photo-bgr/photo-tablet@2x.png);
@@ -176,7 +176,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
     justify-content: left;
   }
   .order-img {
-    margin-left: none;
+    margin-left: 0;
     display: block;
     min-height: 521px;
   }
@@ -194,7 +194,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2ddpx) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
   .order-green-girl{
     background-image: url(../img/order/photo-bgr/photo-desktop-1280@2x.png);
@@ -217,7 +217,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
-screen and (min-resolution: 2ddpx) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1440px){
   .order-green-girl{
     background-image: url(../img/order/photo-bgr/photo-desktop-1440@2x.jpg);

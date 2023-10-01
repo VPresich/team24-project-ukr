@@ -1,6 +1,6 @@
-const buttonMenuRef = document.querySelector('.open-mobile-menu-btn');
-const mobileMenuRef = document.querySelector('.mobile-menu');
-const buttonCloseMenuRef = document.querySelector('.mobile-menu-close-btn');
+const buttonMenuRef = document.querySelector('.js-open-menu-btn');
+const mobileMenuRef = document.querySelector('.js-mobile-menu');
+const buttonCloseMenuRef = document.querySelector('.js-mobile-menu-close-btn');
 
 buttonMenuRef.addEventListener('click', () => {
 mobileMenuRef.classList.add('is-open');

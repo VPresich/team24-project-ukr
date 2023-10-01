@@ -52,7 +52,7 @@
   .footer-page {
     background-image: url('../img/footer/elements-mobile@1x.png');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: right bottom;
   }
   
