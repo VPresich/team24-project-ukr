@@ -16,6 +16,7 @@
 @import url('./order.css');
 @import url('./testimonials.css');
 @import url('./footer.css');
+@import url('./mobile-menu.css');
 
 :root {
   --secondary-color: #1c2225;
