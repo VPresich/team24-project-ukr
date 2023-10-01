@@ -23,7 +23,7 @@
   display: none;
 }
 
-.section-title {
+.order-section-title {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
@@ -110,7 +110,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px){
     margin: 0 auto;
     padding-bottom: 75px;
   }
-  .section-title {
+  .order-section-title {
     font-family: Manrope;
     font-size: 44px;
     font-weight: 500;
@@ -213,7 +213,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
     margin-bottom: 150px;
     background-image: url(../img/order/photo-bgr/photo-desktop-1440@1x.png );
   }
-  .section-title {
+  .order-section-title {
     min-width: 666px;
   }
   .order-section{
