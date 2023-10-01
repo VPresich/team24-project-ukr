@@ -1,4 +1,125 @@
 .container {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.reviews-section-title{
+  margin-bottom: 40px;
+}
+
+.reviews-list-item{
+  display: flex; 
+  padding-top: 24px;
+  flex-direction: column;
+  /*align-items: center;  */
+} 
+
+.reviews-list-item2,
+.reviews-list-item3{
+  display: none;
+}
+
+.reviews-list-item-container{
+  display: flex;
+  width: 335px;
+  padding: 0px 18px 18px 18px;
+  flex-direction: column;
+  align-items: center;  
+  border-radius: 4px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+
+.reviews-list-icon-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 34px;
+}
+
+.reviews-list-avatar{  
+  margin-top: -24px; 
+  border-radius: 64px; 
+  box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+}
+
+
+.reviews-list-fullname{
+  color: var(--primary-color);
+  text-align: center; 
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.reviews-list-text{
+  color: rgba(252, 249, 249, 0.40);
+  text-align: center; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 291px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-list-text{    
+    font-size: 16px;    
+    width: 300px;
+    height: 175px;
   }
+
+  .reviews-list{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .reviews-list-item{
+    flex-basis: cacl((100% - 32px)/2);
+  }
+
+  .reviews-list-item2{
+    display: flex;
+  }
+
+  .reviews-list-item3{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-list-text{       
+    width: 307px;    
+  }
+
+  .reviews-list{    
+    gap: 26px;
+  }
+
+  .reviews-list-item{
+    flex-basis: cacl((100% - 2 * 26px)/3);
+  }
+
+  .reviews-list-item2,
+  .reviews-list-item3{
+    display: flex;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  /*.reviews-list-text{       
+    width: 360px;
+    
+  }*/
+
+}
+
+
