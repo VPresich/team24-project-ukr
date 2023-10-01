@@ -1,8 +1,3 @@
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .reviews-section-title{
   margin-bottom: 40px;
 }
@@ -13,10 +8,9 @@
   flex-direction: column; 
 } 
 
-.reviews-list-item2,
-.reviews-list-item3{
+.reviews-list-item:not(:first-child) {
   display: none;
-}
+} 
 
 .reviews-list-item-container{
   display: flex;
@@ -88,12 +82,8 @@
     flex-basis: cacl((100% - 32px)/2);
   }
 
-  .reviews-list-item2{
-    display: flex;
-  }
-
-  .reviews-list-item3{
-    display: none;
+  .reviews-list-item:nth-child(2) {
+    display: inline-block;
   }
 
 }
@@ -111,9 +101,8 @@
     flex-basis: cacl((100% - 52px)/3);
   }
 
-  .reviews-list-item2,
-  .reviews-list-item3{
-    display: flex;
+  .reviews-list-item:nth-child(3) {
+    display: inline-block;
   }
 
 }
