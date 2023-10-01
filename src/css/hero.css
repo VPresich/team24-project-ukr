@@ -66,8 +66,7 @@
     width: 335px;
   }
 }
-@media screen and (min-resolution: 192dpi) and (min-width: 375px) {
-}
+
 @media screen and (min-width: 768px) {
   .hero > .container {
     padding-top: 106px;
@@ -118,12 +117,14 @@
     bottom: 0px;
     right: 23px;
   }
+  .hero-content-block {
+    width: 549px;
+  }
   .hero-girl-img {
     width: 413px;
   }
 }
-@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
-}
+
 @media screen and (min-width: 1280px) {
   .hero > .container {
     padding-top: 100px;
@@ -154,8 +155,6 @@
   }
 
   .hero-girl-img {
-    width: 392px;
+    /* width: 392px; */
   }
-}
-@media screen and (min-resolution: 192dpi) and (min-width: 1280px) {
 }
