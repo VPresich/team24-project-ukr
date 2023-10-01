@@ -103,6 +103,13 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px){
     margin-bottom: 100px;
     background-image: url(../img/order/photo-bgr/photo-tablet@1x.png);
   }
+  .order-section{
+    background-image: url(../img/order/png-backgrownd/order-elements-tablet@1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom left ;
+    margin: 0 auto;
+    padding-bottom: 75px;
+  }
   .section-title {
     font-size: 44px;
     font-weight: 500;
@@ -159,6 +166,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
     margin-bottom: 150px;
     background-image: url(../img/order/photo-bgr/photo-desktop-1280@1x.png);
   }
+  .order-section{
+    background-image: url(../img/order/png-backgrownd/order-elements-desktop1280@1x.png);
+    padding-bottom: 0;
+  }
   .order-items-container{
     display: flex;
     flex-direction: row-reverse;
@@ -199,6 +210,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
   }
   .section-title {
     max-width: 666px;
+  }
+  .order-section{
+    background-image: url(../img/order/png-backgrownd/order-elements-desktop1440@1x.png);
   }
 }
 
