@@ -118,10 +118,9 @@
     right: 23px;
   }
   .hero-content-block {
+    display: flex;
+    flex-direction: column;
     width: 549px;
-  }
-  .hero-girl-img {
-    width: 413px;
   }
 }
 
@@ -153,8 +152,18 @@
     bottom: 0px;
     right: 97px;
   }
-
-  .hero-girl-img {
-    /* width: 392px; */
+}
+@media screen and (min-width: 1440px) {
+  .hero-title-block {
+    margin-top: 66px;
+    width: 632px;
+  }
+  .main-title {
+    font-size: 64px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+  .order-star-icon-wrapper {
+    top: 166px;
   }
 }
