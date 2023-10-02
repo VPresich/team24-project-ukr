@@ -79,7 +79,7 @@
   }
 
   .reviews-list-item{
-    flex-basis: cacl((100% - 32px)/2);
+    flex-basis: calc((100% - 32px)/2);
   }
 
   .reviews-list-item:nth-child(2) {
@@ -98,7 +98,7 @@
   }
 
   .reviews-list-item{
-    flex-basis: cacl((100% - 52px)/3);
+    flex-basis: calc((100% - 52px)/3);
   }
 
   .reviews-list-item:nth-child(3) {
