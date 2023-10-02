@@ -23,11 +23,11 @@
   display: none;
 }
 
-.section-title {
+.order-section-title {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  letter-spacing: -0.96px;
+  letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
 
@@ -50,7 +50,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.32px;
+  letter-spacing: -0.02em;
 }
 
 .order-form-input:hover {
@@ -110,11 +110,12 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px){
     margin: 0 auto;
     padding-bottom: 75px;
   }
-  .section-title {
+  .order-section-title {
+    font-family: Manrope;
     font-size: 44px;
     font-weight: 500;
     line-height: 58px;
-    letter-spacing: -1.32px;
+    letter-spacing: -0.03em;
     max-width: 542px;
   }
   .order-form {
@@ -127,7 +128,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px){
     width: 508px;
   }
   .order-form-submit-button {
-    width: 165px;
+    padding: 14px 39px;
     height: 50px;
     margin-bottom: 100px;
   }
@@ -175,6 +176,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px){
     flex-direction: row-reverse;
     justify-content: left;
   }
+  .order-img-container{
+    margin-right: 50px;
+    padding: 0;
+  }
   .order-img {
     margin-left: 0;
     display: block;
@@ -208,8 +213,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px){
     margin-bottom: 150px;
     background-image: url(../img/order/photo-bgr/photo-desktop-1440@1x.png );
   }
-  .section-title {
-    max-width: 666px;
+  .order-section-title {
+    min-width: 666px;
   }
   .order-section{
     background-image: url(../img/order/png-backgrownd/order-elements-desktop1440@1x.png);
