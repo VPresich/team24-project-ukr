@@ -5,6 +5,14 @@
   }
 }
 
+.order-container{
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .order-green-girl { 
   max-width: 375px;
   margin-bottom: 80px;
@@ -111,12 +119,10 @@
     background-image: url(../img/order/photo-bgr/photo-tablet@1x.png);
   }
 
-  .order-section {
-    background-image: url(../img/order/png-backgrownd/order-elements-tablet@1x.png);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    /* margin: 0 auto; */
-    padding-bottom: 75px;
+  .order-container{
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .order-section-title {
@@ -149,6 +155,10 @@
     position: relative;
     max-height: 600px;
     padding: 0 16px;
+    background-image: url(../img/order/png-backgrownd/order-elements-tablet@1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 75px;
   }
 
   .order-img {
@@ -183,9 +193,8 @@
     background-image: url(../img/order/photo-bgr/photo-desktop-1280@1x.png);
   }
 
-  .order-section {
-    background-image: url(../img/order/png-backgrownd/order-elements-desktop1280@1x.png);
-    padding-bottom: 0;
+  .container-order{
+    padding: 0;
   }
 
   .order-items-container {
@@ -197,21 +206,24 @@
   .order-img-container {
     margin-right: 50px;
     padding: 0;
+    background-image: none;
+  }
+
+  .order-container{
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(../img/order/png-backgrownd/order-elements-desktop1280@1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
   }
 
   .order-img {
     margin-left: 0;
     display: block;
     min-height: 521px;
-  }
-
-  .order-img-png {
-    display: block;
-    position: relative;
-    width: 545px;
-    height: 484px;
-    right: 50%;
-    bottom: 60%;
+    min-width: 524px;
   }
 
   .order-form-submit-button {
@@ -237,7 +249,10 @@
   .order-section-title {
     min-width: 666px;
   }
-  .order-section {
+  .order-container{
+    width: 1440px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url(../img/order/png-backgrownd/order-elements-desktop1440@1x.png);
   }
 }
