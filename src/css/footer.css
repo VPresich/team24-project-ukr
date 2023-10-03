@@ -114,7 +114,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     margin-bottom: 0;
   }
 
-  .footer-page-container {
+  .footer-page {
     background-image: url('../img/footer/elements-tablet@1x.png');
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -125,7 +125,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  .footer-page-container { 
+  .footer-page { 
     background-image: url('../img/footer/elements-tablet@2x.png');
   }
 }
@@ -144,7 +144,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     width: 754px;
   }
 
-  .footer-page-container {
+  .footer-page {
     background-image: url('../img/footer/elements-desktop-1280@1x.png');
     background-position: bottom right;
     background-size: 336px 377px;
@@ -154,7 +154,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-  .footer-page-container { 
+  .footer-page { 
       background-image: url('../img/footer/elements-desktop-1280@2x.png');
     }
 }
@@ -166,7 +166,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     line-height: 1.16;
   }
 
-  .footer-page-container {
+  .footer-page {
     background-image: url('../img/footer/elements-desktop-1440@1x.png');
     background-position: bottom right;
     background-size: 515px 373px;
@@ -176,7 +176,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
 screen and (min-resolution: 2dppx) and (min-width: 1440px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
-  .footer-page-container { 
+  .footer-page { 
       background-image: url('../img/footer/elements-desktop-1440@2x.png');
     }
 }
