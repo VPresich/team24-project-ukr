@@ -4,6 +4,7 @@
   margin-bottom: 80px;
   background-repeat: no-repeat;
   background-position: center;
+  background-position-y: top;
   background-size: cover;
   background-image: url(../img/order/photo-bgr/photo-mobile@1x.png);
 }
