@@ -4,7 +4,7 @@
   }
 
   .footer-title-wrapper {
-    width: 100%;
+    max-width: 320px;
     padding-left: 12px;
     padding-left: 12px;
   }  
@@ -13,10 +13,6 @@
     color: var(--primary-color);
     font-size: 32px;
   }
-}
-
-.accent-title{
- display:i nline-block;
 }
 
 .footer-page-container {

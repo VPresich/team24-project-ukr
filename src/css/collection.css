@@ -1,3 +1,10 @@
+@media screen and (max-width: 374px) {
+  .collection-container {
+    background-position: top 200px left;
+    background-size: 20px 177px;
+  }
+}
+
 .section-title-collection {
   text-align: center;
   margin-bottom: 40px;
@@ -46,6 +53,7 @@
   background-image: url('../img/collection/mobile/ornament-mobile.png');
   background-repeat: no-repeat;
   background-position: top 305px left;
+  background-size: 72px 177px;
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
@@ -77,6 +85,7 @@
   .collection-container {
     background-image: url('../img/collection/tablet/ornament-tablet.png');
     background-position: top 228px left;
+    background-size: 114px 300px;
   }
 }
 
@@ -96,6 +105,7 @@
   .collection-container {
     background-image: url('../img/collection/desktop/ornament-desktop-one.png');
     background-position: top 220px left;
+    background-size: 169px 300px;
   }
 }
 
@@ -111,6 +121,7 @@
   .collection-container {
     background-image: url('../img/collection/desktop/ornament-desktop-two.png');
     background-position: top 220px left;
+    background-size: 169px 300px;
   }
 }
 
