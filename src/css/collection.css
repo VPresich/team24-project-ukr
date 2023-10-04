@@ -1,7 +1,9 @@
 @media screen and (max-width: 374px) {
-  .collection {
-    background-position: top 200px left;
-    background-size: 20px 177px;
+  .collection {   
+    background-image: url('../img/collection/mobile/ornament-mobile.png');
+    background-position: top 250px left;
+    background-size: 16px 177px;
+    background-repeat: no-repeat;
   }
 }
 
@@ -39,8 +41,7 @@
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  margin-bottom: 8px;
-  white-space: nowrap;
+  margin-bottom: 8px; 
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -87,6 +88,7 @@
 
   .collection-list-name {
     font-size: 18px;
+    white-space: nowrap;
   }
 
   .collection-list-price {
@@ -95,6 +97,7 @@
 
   .collection {
     background-image: url('../img/collection/tablet/ornament-tablet.png');
+    background-repeat: no-repeat;
     background-position: top 280px left;
     background-size: 114px 300px;
   }
@@ -120,6 +123,7 @@
 
   .collection {
     background-image: url('../img/collection/desktop/ornament-desktop-one.png');
+    background-repeat: no-repeat;
     background-position: top 283px left;
     background-size: 169px 300px;
   }
@@ -136,6 +140,7 @@
 @media screen and (min-width: 1440px) {
   .collection {
     background-image: url('../img/collection/desktop/ornament-desktop-two.png');
+    background-repeat: no-repeat;
     background-position: top 293px left;
     background-size: 169px 300px;
   }
