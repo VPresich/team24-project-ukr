@@ -56,7 +56,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1080px;   
+    width: 1112px;   
   }
 
   .section {
@@ -67,7 +67,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1240px;  
+    width: 1272px;  
   }
 
   .section-title {
