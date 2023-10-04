@@ -1,15 +1,10 @@
 @media screen and (max-width: 374px) {
-  .collection {   
+  .collection {  
     background-image: url('../img/collection/mobile/ornament-mobile.png');
-    background-position: top 250px left;
+    background-repeat: no-repeat;    
+    background-position: top 340px left;
     background-size: 16px 177px;
-    background-repeat: no-repeat;
   }
-}
-
-.collection {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .section-title-collection {
@@ -71,11 +66,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .collection {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+@media screen and (min-width: 768px) { 
 
   .collection-list {
     row-gap: 40px;
@@ -98,7 +89,7 @@
   .collection {
     background-image: url('../img/collection/tablet/ornament-tablet.png');
     background-repeat: no-repeat;
-    background-position: top 280px left;
+    background-position: top 264px left;
     background-size: 114px 300px;
   }
 }
@@ -111,11 +102,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  collection {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
+@media screen and (min-width: 1280px) { 
 
   .collection-list-item {
     width: calc((100% - 40px) / 3);
