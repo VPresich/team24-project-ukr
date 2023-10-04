@@ -1,9 +1,15 @@
 .accent-color {
   color: var(--accent-color);
 }
-.hero > .container {
-  padding-top: 60px;
+
+.hero { 
+  padding-bottom: 40px;
 }
+
+.hero > .container {
+  padding-top: 60px;  
+}
+
 .main-title {
   font-size: 44px;
   font-weight: 400;
@@ -74,8 +80,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero { 
+    padding-bottom: 50px;
+  }
+
   .hero > .container {
-    padding-top: 106px;
+    padding-top: 106px; 
     position: relative;
   }
   .hero-title-block {
@@ -139,8 +149,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  .hero { 
+    padding-top: 75px;
+  }
+
   .hero > .container {
     padding-top: 100px;
+    padding-top: 75px;
     position: relative;
   }
 

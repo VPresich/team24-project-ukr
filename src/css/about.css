@@ -1,17 +1,18 @@
 
-.about-section { 
-    padding-top: 80px;
+.about-section {    
     padding-bottom: 62px;
     background-image: url(../img/about/background-pattern-mobile@1x.png);
     background-repeat: no-repeat;
     background-size: 250px 408px;
-    background-position: bottom left calc(100% / 2 + 58px);
+    /* background-position: bottom left calc(100% / 2 + 58px); */
+    background-position: bottom right;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0 auto;
 }
 
 .about-section-title { 
-    color: var(--primary-color);
-    font-family: "Manrope", sans-serif;
+    color: var(--primary-color);   
     font-size: 32px;
     font-weight: 500;
     line-height: 1.38;
@@ -20,11 +21,9 @@
 }
 
 .about-text { 
-    color: rgba(252, 249, 249, 0.40);
-    font-family: "Manrope", sans-serif;
+    color: rgba(252, 249, 249, 0.40);    
     font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 400;   
     letter-spacing: -0.04em;
     margin-bottom: 20px;
 }
@@ -51,8 +50,10 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .about-section { 
         background-image: url(../img/about/background-pattern-tablet@1x.png);
         background-size: 369px 484px;
-        background-position: bottom left calc(50% + 184.5px);
+        /* background-position: bottom left calc(50% + 184.5px); */
+        background-position: bottom right;
         padding-bottom: 50px;
+        padding-top: 50px;
     }
     
     .about-section-title { 
@@ -86,18 +87,15 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .about-section { 
 
         background-image: url(../img/about/background-pattern-desktop@1x.png);
-        background-size: 385px 484px;
-        padding-bottom: 80px;
-        background-position: bottom left calc(50% + 447.5px);
+        background-size: 385px 484px;       
+        /* background-position: bottom left calc(50% + 447.5px); */
+        background-position: bottom right;
+        padding-bottom: 75px;
+        padding-top: 75px;
     }
 
     .about-section-title { 
         display: inline;
-    }
-
-    .about-section { 
-        padding-left: 80px;
-        padding-right: 80px;
     }
 
     .about-text {
@@ -130,6 +128,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .about-section { 
         background-image: url(../img/about/background-pattern-1440desktop@1x.png);
         background-size: 545px 484px;
+        background-position: bottom right;
     }
 
     .about-text {
