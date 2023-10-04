@@ -1,6 +1,7 @@
 @media screen and (max-width: 374px) {
-  .collection-list-item {
-    width: 100%;
+  .collection-container {
+    background-position: top 200px left;
+    background-size: 20px 177px;
   }
 }
 
