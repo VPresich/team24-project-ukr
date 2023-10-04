@@ -6,6 +6,8 @@ body {
 
 @media screen and (max-width: 374px) {
   .container {   
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -35,9 +37,9 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+    width: 704px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .section-title {
@@ -54,9 +56,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;   
+    width: 1080px;   
   }
 
   .section {
@@ -67,7 +67,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1440px;  
+    width: 1240px;  
   }
 
   .section-title {
@@ -79,3 +79,4 @@ body {
 .accent-color {
   color: var(--accent-color);
 }
+
