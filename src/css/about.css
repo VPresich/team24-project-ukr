@@ -1,9 +1,16 @@
 
+@media screen and (max-width: 305px) {
+    .about-section {   
+        background-image: none;
+    }
+}
+
 .about-section {    
     padding-bottom: 62px;
     background-image: url(../img/about/background-pattern-mobile@1x.png);
     background-repeat: no-repeat;
     background-size: 250px 408px;
+    overflow: hidden;
     /* background-position: bottom left calc(100% / 2 + 58px); */
     background-position: bottom right;
     padding-top: 40px;
