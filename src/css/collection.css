@@ -1,10 +1,10 @@
 @media screen and (max-width: 374px) {
-  .collection {
-    background-position: top 200px left;
-    background-size: 20px 177px;
+  .collection-list-item {
+    width: 100%;
   }
 }
-.collection{
+
+.collection {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -52,32 +52,32 @@
   line-height: 1;
   letter-spacing: 0.05em;
 }
-
-.collection {
-  background-image: url('../img/collection/mobile/ornament-mobile.png');
-  background-repeat: no-repeat;
-  background-position: top 345px left;
-  background-size: 72px 177px;
+@media screen and (min-width: 375px) {
+  .collection {
+    background-image: url('../img/collection/mobile/ornament-mobile.png');
+    background-repeat: no-repeat;
+    background-position: top 345px left;
+    background-size: 72px 177px;
+  }
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-  .collection-container {
+  .collection {
     background-image: url('../img/collection/mobile/ornament-mobile@2x.png');
   }
 }
 
 @media screen and (min-width: 768px) {
+  .collection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-.collection{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.collection-list {
+  .collection-list {
     row-gap: 40px;
- }
+  }
 
   .collection-list-item {
     width: calc((100% - 20px) / 2);
@@ -108,17 +108,16 @@
 }
 
 @media screen and (min-width: 1280px) {
-  
-  collection{
+  collection {
     padding-top: 75px;
-    padding-bottom: 75px;  
+    padding-bottom: 75px;
   }
 
   .collection-list-item {
     width: calc((100% - 40px) / 3);
   }
 
-  .collection{
+  .collection {
     background-image: url('../img/collection/desktop/ornament-desktop-one.png');
     background-position: top 283px left;
     background-size: 169px 300px;
@@ -148,4 +147,3 @@
     background-image: url('../img/collection/desktop/ornament-desktop-two@2x.png');
   }
 }
-

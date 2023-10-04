@@ -1,3 +1,10 @@
+@media screen and (max-width: 374px) {
+  
+  .reviews-list-icon-wrap{
+    width: 100%;
+  }
+}
+
 .reviews{
   padding-bottom: 80px;
 }
@@ -28,7 +35,7 @@
 
 .reviews-list-item-container:hover,
 .reviews-list-item-container:focus{
-  border-color: #ECD979;
+  border-color: var(--accent-color);
 }
 
 .reviews-list-icon-wrap{
@@ -119,10 +126,5 @@
 
 }
 
-@media screen and (min-width: 1440px) {
-  /*.reviews-list-text{       
-    width: 360px;    
-  }*/
 
-}
 
