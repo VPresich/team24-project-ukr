@@ -1,5 +1,5 @@
 @media screen and (max-width: 374px) {
-  .collection-container {
+  .collection {
     background-position: top 200px left;
     background-size: 20px 177px;
   }
@@ -103,7 +103,7 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  .collection-container {
+  .collection {
     background-image: url('../img/collection/tablet/ornament-tablet@2x.png');
   }
 }
@@ -128,7 +128,7 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-  .collection-container {
+  .collection {
     background-image: url('../img/collection/desktop/ornament-desktop-one@2x.png');
   }
 }
