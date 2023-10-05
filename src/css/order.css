@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
-    background-image: url(../img/order/photo-bgr/photo-tablet@1x.png);
+    background-image: url(../img/order/photo-bgr/photo-tablet@1x.jpg);
     margin: 0 auto;
     margin-bottom: 80px;
   }
@@ -131,8 +131,7 @@
     margin: 0 auto;
   }
 
-  .order-section-title {
-    font-family: Manrope;
+  .order-section-title {   
     font-size: 44px;
     font-weight: 500;
     line-height: 58px;
@@ -183,7 +182,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .order-green-girl {
-    background-image: url(../img/order/photo-bgr/photo-tablet@2x.png);
+    background-image: url(../img/order/photo-bgr/photo-tablet@2x.jpg);
   }
 }
 
@@ -196,7 +195,7 @@
   .order-green-girl {
     max-width: 1540px;
     margin-bottom: 150px;
-    background-image: url(../img/order/photo-bgr/photo-desktop-1280@1x.png);
+    background-image: url(../img/order/photo-bgr/photo-desktop-1280@1x.jpg);
   }
 
   .order-section {
@@ -238,14 +237,14 @@
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .order-green-girl {
-    background-image: url(../img/order/photo-bgr/photo-desktop-1280@2x.png);
+    background-image: url(../img/order/photo-bgr/photo-desktop-1280@2x.jpg);
   }
 }
 
 @media screen and (min-width: 1440px) {
   .order-green-girl {   
     margin-bottom: 150px;
-    background-image: url(../img/order/photo-bgr/photo-desktop-1440@1x.png);
+    background-image: url(../img/order/photo-bgr/photo-desktop-1440@1x.jpg);
   }
   .order-section-title {
     min-width: 666px;
