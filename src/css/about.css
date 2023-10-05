@@ -9,10 +9,11 @@
     padding-bottom: 62px;
     background-image: url(../img/about/background-pattern-mobile@1x.png);
     background-repeat: no-repeat;
-    background-size: 250px 408px;    
-    /* background-position: bottom left calc(100% / 2 + 58px); */
+    background-size: 250px 408px;   
+   
     background-position: bottom right;  
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 .about-section-title { 
@@ -53,9 +54,9 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen and (min-width: 768px) {
     .about-section { 
         background-image: url(../img/about/background-pattern-tablet@1x.png);
-        background-size: 369px 484px;
-        /* background-position: bottom left calc(50% + 184.5px); */
-        background-position: bottom right;       
+        background-size: 369px 484px;       
+        background-position: bottom right; 
+        padding-top: 50px;      
     }
     
     .about-section-title { 
@@ -88,9 +89,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 @media screen and (min-width: 1280px) { 
     .about-section { 
         background-image: url(../img/about/background-pattern-desktop@1x.png);
-        background-size: 385px 484px;       
-        /* background-position: bottom left calc(50% + 447.5px); */
+        background-size: 385px 484px;   
         background-position: bottom right;
+        padding-top: 75px; 
     }
 
     .about-section-title { 
