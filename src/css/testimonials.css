@@ -25,7 +25,7 @@
   align-items: center;
   border-radius: 4px;
   border: 1px solid rgba(252, 249, 249, 0.10);
-  transition: order-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .reviews-list-item-container:hover,
