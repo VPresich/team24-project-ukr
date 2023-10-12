@@ -50,8 +50,7 @@
   .order-form-input {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
-    display: flex;
-    /* width: 335px; */
+    display: flex;    
     padding: 14px 16px;
     align-items: flex-start;
     gap: 8px;
@@ -115,7 +114,7 @@
 @media screen and (min-width: 768px) {
   .order-section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 139px;
   }
 
   .order-green-girl {
@@ -127,7 +126,7 @@
   .order-section {
     background-image: url(../img/order/png-backgrownd/order-elements-tablet@1x.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom 50px left;
     margin: 0 auto;
   }
 
@@ -200,6 +199,7 @@
 
   .order-section {
     background-image: url(../img/order/png-backgrownd/order-elements-desktop1280@1x.png);
+    background-position: bottom 75px left;
   }
 
   .order-items-container {
